@@ -1,8 +1,18 @@
+import Navbar from "./components/Navbar";
+
 function App(){
   return (
-    <div>
-      <h1>Recipe Hub</h1>
-    </div>
+    <>
+      <Navbar/>
+
+      <main> 
+        <h2>Welcome to the Recipe Hub</h2>
+
+        <p>
+          Discover delicious meals and drinks.
+        </p>
+      </main> 
+    </>
   );
 }
 
