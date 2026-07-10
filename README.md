@@ -1,2 +1,2 @@
 # RecipeHub
-A recipe website created using and tailored to modern coding tools, techniques, and practices.
+A recipe web app created using and tailored to modern coding tools, techniques, and practices.
