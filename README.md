@@ -1,3 +1,8 @@
+# Recipe Hub
+This is a recipe web app creadted using and tailored to modern coding tools, techniques, and practices.
+
+
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
