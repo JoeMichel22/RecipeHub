@@ -27,3 +27,9 @@
     border-radius: 8px;
     cursor: pointer;
 }
+
+.hero img{
+    width: 500px;
+    border-radius: 20px;
+    margin-bottom: 30px;
+}
