@@ -1,9 +1,13 @@
 import "../styles/Hero.css"
+import heroImage from "../assets/images/recipelanding.png"
 
 function Hero(){
 
     return(
         <section className="hero">
+            
+            <img src={heroImage} alt="Delicious food"/> 
+
             <div className="hero-content">
                 
                 <h1>Discover Delicious Recipes</h1>
