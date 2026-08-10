@@ -1,0 +1,10 @@
+div{
+    align-items: center;
+    border-style: double;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+img{
+    size: 200px, 200px;
+}
