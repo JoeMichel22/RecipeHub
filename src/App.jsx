@@ -1,21 +1,7 @@
-import Navbar from "./components/Navbar";
-import Hero from "./components/Hero";
+import Hero from "./pages/Home";
 
 function App(){
-  return (
-    <>
-      <Navbar/>
-      <Hero/>
-
-      {/* <main> 
-        <h2>Welcome to the Recipe Hub</h2>
-
-        <p>
-          Discover delicious meals and drinks.
-        </p>
-      </main>  */}
-    </>
-  );
+  return Home;
 }
 
 export default App;

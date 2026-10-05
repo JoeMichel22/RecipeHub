@@ -1,13 +1,28 @@
-import Navbar from "../components/Navbar"
-import Hero from "../components/Hero"
-//import RecipeList "../components/RecipeList"
-//import Footer "../components/Footer"
+import Navbar from "../components/Navbar";
+import Hero from "../components/Hero";
+import RecipeList from "../components/RecipeList";
+import Footer from "../components/Footer";
+
+import "../styles/Home.css";
 
 function Home(){
     return(
-        <div>
+        <>
             <Navbar/>
-            <Hero/>
-        </div>
+
+            <main>
+                <Hero/>
+
+                <section className="recipe-section">
+                    <h2>Featured Recipes</h2>
+
+                    <RecipeList/>
+                </section>
+            </main>
+
+            <Footer/>
+        </>
     );
 }
+
+export default Home;
