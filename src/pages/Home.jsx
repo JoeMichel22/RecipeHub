@@ -23,7 +23,7 @@ function Home(){
             <main>
                 <Hero/>
 
-                <Search/>
+                <Search searchTerm={searchTerm} setSearchTerm={setSearchTerm}/>
 
                 <section className="recipe-section">
                     <h2>Featured Recipes</h2>

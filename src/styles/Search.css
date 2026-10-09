@@ -1,0 +1,33 @@
+/* Styles the container that holds the search input */
+.search-section {
+    display: flex;
+    justify-content: center;
+    padding: 30px 40px;
+}
+
+/* Styles the actual search input field */
+.search-section input{
+    width: 100%;
+    max-width: 600px;
+    padding: 15px 20px;
+    font-size: 16px;
+    font-family: inherit;
+    background-color: #ffffff; 
+    color: #333333;
+    /* Removes the browser's default focus outline */
+    outline: none;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    /* Smoothly animates changes to the border and shadow */
+    transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+/* Changes the search bar's appearance when the user clicks into it */
+.search-section input:focus{
+    border-color: #4f7942; 
+    box-shadow: 0 0 0 3px rgba(79, 121, 66, 0.15);
+}
+
+/* Styles the placeholder text before the user types anything */
+.search-section input::placeholder{
+    color: #9ca3af;
+}
